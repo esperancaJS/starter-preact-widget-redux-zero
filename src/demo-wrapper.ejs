@@ -14,26 +14,23 @@
       border: 1px dashed rgba(0, 0, 0, 0.2);
       position: relative;
     }
-
-    .preview::before {
-      content: 'WIDGET PREVIEW';
-      position: absolute;
-      display: block;
-      top: -18px;
-      font-size: 11px;
-      color: rgba(0, 0, 0, 0.5);
-    }
   </style>
 
 </head>
 
 <body>
+
+  <h3>Here is the widget: 👇</h3>
+
   <div data-widget-host="habitat" class="preview">
     <script type="text/props">
       { "color": "red"}
     </script>
   </div>
   <script async src="/bundle.js"></script>
+
+  <h3>Here is the widget: 👆</h3>
+
 </body>
 
 </html>
