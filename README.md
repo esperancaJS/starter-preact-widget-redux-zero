@@ -1,4 +1,4 @@
-# Preact Widget with Redux-Zero
+# Preact Widget with Redux-Zero Starter
 A lightweight widget starter with only 26.6kb 🦋
 
 #### Using:
