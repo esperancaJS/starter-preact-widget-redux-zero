@@ -7,7 +7,7 @@ import { Provider } from "redux-zero/preact";
 import "./style.scss";
 
 import Counter from "./components/Counter";
-import store from "./state/store";
+import store from "./state/createStore";
 
 class App extends Component {
   render(props) {
